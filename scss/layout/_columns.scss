@@ -1,0 +1,13 @@
+// ==========================================================================
+// if you don't use Bootraps grid system, you can create your own here
+// ==========================================================================
+
+.tips {
+  @extend %columns;
+  float: left;
+}
+
+.resorts {
+  @extend %columns;
+  float: right;
+}
